@@ -1,0 +1,12 @@
+# Generated namespace for public API
+export(aplime_explainer)
+export(aplime_explain)
+export(aplime_bootstrap)
+export(aplime_csi)
+export(aplime_knot_report)
+export(aplime_vsi)
+export(aplime_repeat)
+export(aplime_predict_xgboost)
+S3method(print,aplime_explanation)
+importFrom(stats,setNames)
+importFrom(utils,head)

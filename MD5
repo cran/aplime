@@ -1,0 +1,16 @@
+973ec34f3a980ad82cab561adabc3b58 *DESCRIPTION
+6de5a07a3f0e7ee5330cc1c9bba07b00 *LICENSE
+a4927207f7a06205248c7099ffaf90d4 *NAMESPACE
+b31443e914e6c116ca4321477d324726 *R/aplime.R
+5e3cde6943b5f33b2da498169a2f72cd *inst/examples/quickstart.R
+e033c2686c4472da411b81f4f7aa83d8 *man/aplime_bootstrap.Rd
+bf510673f79e142b91ff993397790146 *man/aplime_csi.Rd
+d0f65b80663f98f4e121a53d68580a3e *man/aplime_explain.Rd
+0b49299a34a30ae2f8be51719f472427 *man/aplime_explainer.Rd
+f974a9cda655c198dd75453926ad3314 *man/aplime_knot_report.Rd
+919a72ae3f0731dc668c7bd6da999986 *man/aplime_predict_xgboost.Rd
+504ffc906e198ac786be311e835c4ed1 *man/aplime_repeat.Rd
+7e34a6557675dfbf3a876d392976b974 *man/aplime_vsi.Rd
+ab8f7fc744d177a24c66a053dc730633 *man/print.aplime_explanation.Rd
+f8b135f8c4d3a63540ad1797f664ec9a *tests/testthat.R
+a001ca582e5899d3ec999a8981f26d0f *tests/testthat/test-core.R

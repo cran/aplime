@@ -1,0 +1,54 @@
+Package: aplime
+Type: Package
+Title: Adaptive Piecewise Local Model-Agnostic Explanations
+Version: 0.1.0
+Authors@R: c(
+    person("Abdullah Nuri", "Somuncuoğlu",
+           email = "abdullah.somuncuoglu@metu.edu.tr",
+           role = c("aut"),
+           comment = c(affiliation = "Department of Biomedical Engineering, Middle East Technical University")),
+    person("Vilda", "Purutçuoğlu",
+           email = "vpurutcu@metu.edu.tr",
+           role = c("aut", "cre"),
+           comment = c(affiliation = "Department of Statistics, Middle East Technical University")))
+Description: Implements Adaptive Piecewise Local Interpretable
+    Model-Agnostic Explanations (AP-LIME) and its second-order
+    interaction extension (AP2-LIME) for interpreting predictions
+    from machine learning models. The methods replace the
+    conventional locally weighted linear surrogate in LIME with
+    Multivariate Adaptive Regression Splines (MARS).
+    AP-LIME uses additive piecewise-linear hinge functions,
+    whereas AP2-LIME allows pairwise interactions between
+    hinge functions. The package generates proximity-weighted
+    local explanations, estimates feature contributions,
+    evaluates local surrogate fit, and assesses explanation
+    stability across repeated runs. Stability is measured
+    using the Variables Stability Index (VSI) and Coefficients
+    Stability Index (CSI), including normal-theory and
+    percentile bootstrap confidence intervals. MARS terms
+    with the same predictors, hinge directions, and interaction
+    structure are matched independently of knot locations.
+    Coefficients within matched groups are summarized by
+    their arithmetic mean, while the original knot thresholds
+    remain available for inspection. The MARS-based local explanation 
+    approach is discussed by Somuncuoglu and Purutcuoglu 
+    (2027, ISBN:978-1-041-34431-5),
+    "Explainable AI Approaches in Biomedical Signals:
+    A Case Study with Pima Indians Diabetes Dataset",
+    in "Biomedical Data Science: A Focus on Signaling",
+    CRC Press.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: earth, stats, utils
+Suggests: testthat (>= 3.0.0), xgboost
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-10-27 23:15:08 UTC; vilda
+Author: Abdullah Nuri Somuncuoğlu [aut] (affiliation: Department of Biomedical
+    Engineering, Middle East Technical University),
+  Vilda Purutçuoğlu [aut, cre] (affiliation: Department of Statistics,
+    Middle East Technical University)
+Maintainer: Vilda Purutçuoğlu <vpurutcu@metu.edu.tr>
+Repository: CRAN
+Date/Publication: 2026-11-12 18:50:09 UTC
